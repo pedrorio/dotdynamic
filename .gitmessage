@@ -1,0 +1,59 @@
+# |<----  Using a Maximum Of 50 Characters  ---->|
+# 50-character subject line
+# <type>(<scope>): <subject>
+# ----------------------------------------------
+# 🚀 deploy: Deploys some feature 
+# 🔖 release: Releases new version
+# ✨ feature: Adds feature
+# 🐛 bugfix: Fixes a bug
+# 🚑 hotfix: Fixes a critical bug
+#
+# 🔧 config: Changing configuration
+# ⚙  infra: Changes infrastructure
+# 📊 monit: Canges monitoring
+# 📦 dependency: Changes despendencies
+#
+# 💅 ui: Updates the UI and style files
+# 📝 ux: Updates the UX
+#
+# 🚨 tests: Adds tests
+# 📚 docs:  Documents something
+# 🎨 style: Improves the code style
+#
+# 🚧 wip: Work in progress️
+# 🎉 init: Initial commit
+# 👌 review: Adds code review changes
+#
+# 🐎 perf:  Improves performance
+# ♻  refactor: Refactors some feature️
+#
+# 🌐 i18n/l10n: i18n or l10n
+# 🐳 docker: Work about Docker
+# 🤖 ci: Changes CI
+# 🗑 removal: Deletes unused code
+#️
+#
+# |<----   Try To Limit Each Line to a Maximum Of 72 Characters     ---->|
+# * 72-character wrapped longer description. This should answer:       |
+# * <body>                                                             |
+# *                                                                    |
+# *                                                                    |
+# *                                                                    |
+#                                                                      |
+# Why was this change necessary?                                       |
+# How does it address the problem?                                     |
+# Are there any side effects?                                          |
+#                                                                      |
+# ---                                                                  |
+# <footer>                                                             |                                                                      |
+# Issue [#34] (link)                                                   |
+# Closes issue [#35] (link)                                            |
+# Solves issue [#36] (link)                                            |
+# See issue [#37] (link)                                               |
+#                                                                      |
+# Add co-authors if you worked on this code with others:               |
+#                                                                      |
+# Co-authored-by: Full Name <email@example.com> (@username)            |
+# Co-authored-by: Full Name <email@example.com> (@username)            |
+# Reported-by:    Full Name <email@example.com> (@username)            |
+# Signed-off-by:  Full Name <email@example.com> (@username)            |

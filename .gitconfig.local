@@ -1,0 +1,6 @@
+[core]
+  sshCommand = "ssh -i ~/.ssh/github_user/github"
+
+[user]
+  email = github_email
+  name = full_name
