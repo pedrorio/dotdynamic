@@ -27,7 +27,7 @@ secrets:
 
 reset:
 	echo "\
-	local
+	local\
 	{username}\n\
 	{fullname}\n\
 	{email}\n\
