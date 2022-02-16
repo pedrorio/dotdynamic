@@ -26,12 +26,14 @@ secrets:
 	$(MAKE) --directory=secrets import_keys
 
 reset:
+	touch data
 	echo "\
-	local\
+	local\n\
 	{username}\n\
 	{fullname}\n\
 	{email}\n\
 	{keyid}\n\
+	\n\
 	{work}\n\
 	{work_username}\n\
 	{work_fullname}\n\
@@ -41,7 +43,7 @@ reset:
 
 local_config:
 	echo "Username: " ;\
-	read username ;\
+	read username ;\g
 	echo "First and last names: " ;\
 	read fullname ;\
 	echo "Email address: " ;\
