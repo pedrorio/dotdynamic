@@ -1,4 +1,4 @@
-EXECS = {username} homeit
+EXECS = {username} {work}
 
 .PHONY: $(EXECS)
 all: $(EXECS)
@@ -6,5 +6,5 @@ all: $(EXECS)
 {username}:
 	$(MAKE) --directory={username} all
 
-homeit:
-	$(MAKE) --directory=homeit all
+{{work}}:
+	$(MAKE) --directory={work} all

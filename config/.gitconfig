@@ -66,8 +66,8 @@
 [includeIf "gitdir:~/Code/{username}/**"]
   path = ~/Code/{username}/.gitconfig
 
-[includeIf "gitdir:~/Code/homeit/**"]
-  path = ~/Code/homeit/.gitconfig
+[includeIf "gitdir:~/Code/{work_username}/**"]
+  path = ~/Code/{work}/.gitconfig
   
 [init]
   defaultBranch = main
