@@ -1,4 +1,4 @@
-eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(/opt/homebrew/bin/brew shellenv)" # if macos
 
 # editors
 if [[ -n $SSH_CONNECTION ]]; then
@@ -16,7 +16,8 @@ fi
 export LANG=en_US.UTF-8
 
 # antigen
-source $(brew --prefix)/share/antigen/antigen.zsh
+
+source $(brew --prefix)/share/antigen/antigen.zsh # if macos
 antigen init "${HOME}/.antigenrc"
 
 
@@ -41,8 +42,8 @@ export OMPI_CXX=g++-11
 
 # export CXXFlags=-std=c++11
 
-export CPATH="$(brew --prefix)/include"
-export LIBRARY_PATH="$(brew --prefix)/lib"
+export CPATH="$(brew --prefix)/include" # if macos
+export LIBRARY_PATH="$(brew --prefix)/lib" # if macos
 
 # export CPATH="$(brew --prefix)/include:$(xcrun --show-sdk-path)/usr/include"
 # export LIBRARY_PATH="$(brew --prefix)/lib:$(xcrun --show-sdk-path)/usr/lib"
@@ -56,4 +57,5 @@ export LIBRARY_PATH="$(brew --prefix)/lib"
 export IDF_PATH="$HOME/esp/esp-idf"
 alias get_idf=". ${IDF_PATH}/export.sh"
 
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+. /opt/homebrew/opt/asdf/libexec/asdf.sh # if macos
+
