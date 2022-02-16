@@ -70,7 +70,7 @@ local_key_config:
 	echo "Local keyid: " ;\
 	read keyid ;\
 	sed -i.bak -e "s/{keyid}/$$keyid/" `grep '{keyid}' -rl *` ;\
-	find . -type f -name '*.bak' -deleteg
+	find . -type f -name '*.bak' -delete
 
 work_key_config:
 	echo "Work keyid: " ;\
