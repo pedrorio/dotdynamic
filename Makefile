@@ -49,7 +49,7 @@ local_config:
 	sed -i.bak -e "s/{username}/$$username/" `grep '{username}' -rl *` ;\
 	sed -i.bak -e "s/{fullname}/$$fullname/" `grep '{fullname}' -rl *` ;\
 	sed -i.bak -e "s/{email}/$$email/" `grep '{email}' -rl *` ;\
-	rm -f **/*.bak
+	find . -type f -name '*.bak' -delete
 
 work_config:
 	echo "Work: " ;\
@@ -64,17 +64,16 @@ work_config:
 	sed -i.bak -e "s/{work_username}/$$work_username/" `grep '{work_username}' -rl *` ;\
 	sed -i.bak -e "s/{fullname}/$$fullname/" `grep '{fullname}' -rl *` ;\
 	sed -i.bak -e "s/{email}/$$email/" `grep '{email}' -rl *` ;\
-	rm -f **/*.bak
-
+	find . -type f -name '*.bak' -delete
 
 local_key_config:
 	echo "Local keyid: " ;\
 	read keyid ;\
 	sed -i.bak -e "s/{keyid}/$$lkeyid/" `grep '{keyid}' -rl *` ;\
-	rm -f **/*.bak
+	find . -type f -name '*.bak' -delete
 
 work_key_config:
 	echo "Work keyid: " ;\
 	read work_keyid ;\
 	sed -i.bak -e "s/{work_keyid}/$$work_keyid/" `grep '{work_keyid}' -rl *` ;\
-	rm -f **/*.bak
+	find . -type f -name '*.bak' -delete
