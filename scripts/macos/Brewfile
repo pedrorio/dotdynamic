@@ -1,0 +1,205 @@
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "homebrew/cask"
+tap "joshuaclayton/formulae"
+tap "buo/cask-upgrade"
+tap "homebrew/cask-fonts"
+tap "sambadevi/powerlevel9k"
+tap "heroku/brew"
+tap "elastic/tap"
+
+# basics
+brew "mas"
+mas "Xcode", id: 497799835
+# git
+brew "git"
+brew "git-extras"
+brew "git-lfs"
+# security
+brew "gnupg"
+brew "openssl"
+brew "openssh"
+brew "pinentry-mac"
+mas "1Password 7", id: 1333542190
+cask "nordvpn"
+mas "Yubico Authenticator", id: 1497506650
+
+brew "zsh"
+brew "antigen"
+
+
+# video and image processing libs
+brew "ffmpeg"
+brew "imagemagick"
+# graphical computation libs
+brew "readline"
+brew "graphviz"
+# data compression libs
+brew "zlib"
+brew "bzip2"
+brew "xz"
+# encoding libs
+brew "qrencode"
+# for R
+brew "libxt" 
+brew "cairo"
+
+# esp-idf
+brew "ninja" 
+brew"dfu-util"
+brew "doxygen"
+
+# compilers
+brew "gcc"
+
+# language version manager
+# brew "anyenv"
+brew "asdf"
+
+# languages
+# brew "r"
+
+# editors
+brew "micro"
+cask "sublime-text"
+
+# latex
+cask "basictex"
+brew "plantuml"
+# cask "mactex"
+
+# cloud
+# brew "heroku"
+cask "google-cloud-sdk"
+# brew "azure-cli"
+# brew "awscli"
+brew "heroku"
+
+# docker
+cask 'xquartz'
+
+# kubernetes
+# brew "hyperkit"
+# brew "docker"
+# brew "kubectl"
+# brew "minikube"
+# brew "docker-compose"
+cask "docker"
+brew "kubectx"
+brew "helm"
+# brew "kompose"
+# brew "kubespy"
+
+# infrastructure as code
+brew "pulumi"
+
+#build tools
+brew "make"
+brew "cmake"
+brew "autoconf"
+brew "automake"
+
+# package managers
+brew "yarn"
+
+# automated browser
+# Selenium webdriver for Chrome browser
+# cask "chromedriver"
+
+# gamedev
+cask "love"
+
+# databases
+brew "mysql"
+brew "postgresql"
+brew "sqlite3"
+brew "redis"
+brew "elastic/tap/elasticsearch-full"
+
+# database admin
+cask "sequel-pro"
+cask "mqttx"
+cask "mongodb-compass"
+
+# admin tools
+brew "grep"
+brew "htop" # top alt
+brew "duf" # du alt
+brew "bat" # cat alt
+brew "exa" # ls alt
+brew "tree"
+brew "broot" # tree alt
+brew "fd" # find alt
+brew "tokei"
+brew "viu" # image viwer
+brew "glow" # markdown viewer
+brew "tldr" # man alt
+brew "dog" # dig alt
+brew "entr"
+
+brew "curl"
+brew "wget"
+brew "whois"
+brew "speedtest-cli"
+
+# terminal
+brew "tmux"
+cask "iterm2"
+
+# utils
+# cask "the-unarchiver"
+
+# p2p
+cask "webtorrent"
+brew "webtorrent-cli"
+# media
+cask "vlc"
+
+# browser
+cask "google-chrome"
+
+# menu bar
+mas "MenuBar Stats", id: 714196447
+mas "Divvy", id: 413857545
+# mas "Aware", id: 1082170746
+
+# security
+# mas "Airmail", id: 918858936
+mas "Fantastical - Calendar & Tasks", id: 975937182
+mas "Cardhop", id: 1290358394
+mas "Canary", id: 1236045954
+
+# apple office
+# mas "Numbers", id: 409203825
+# mas "Pages", id: 409201541
+# mas "Keynote", id: 409183694
+
+# productivity
+# mas "Bear", id: 1091189122
+# mas "MindNode", id: 1289197285
+
+# design
+cask "figma"
+# product
+cask "notion"
+
+# graphql
+# cask "graphql-playground"
+
+# ide
+# cask "rstudio"
+cask "webstorm"
+# cask "pycharm"
+cask "clion"
+# cask "rubymine"
+cask "datagrip"
+
+# communication
+# cask "signal"
+cask "zoom"
+mas "telegram", id: 747648890
+mas "WhatsApp", id: 1147396723
+mas "Slack", id: 803453959
+mas "Wire", id: 931134707
+cask "upwork"

@@ -1,0 +1,33 @@
+antigen use oh-my-zsh
+
+# plugins
+antigen bundle git
+antigen bundle git-extras
+antigen bundle common-aliases
+antigen bundle macos
+antigen bundle brew
+
+antigen bundle dockerb
+antigen bundle kubectl
+
+antigen bundle colorize
+antigen bundle colored-man-pages
+
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# antigen bundle kiurchv/asdf.plugin.zsh
+# see https://github.com/kiurchv/asdf.plugin.zsh/issues/5
+
+antigen bundle sublime
+
+# theme
+antigen theme spaceship-prompt/spaceship-prompt
+
+SPACESHIP_TIME_SHOW=true
+SPACESHIP_USER_SHOW=always
+SPACESHIP_HOST_SHOW=always
+
+# apply
+antigen apply

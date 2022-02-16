@@ -1,0 +1,13 @@
+[user]
+  email = {work_email}
+  name = {work_fullname}
+  signingkey = {work_keyid}
+
+[commit]
+  gpgsign = true
+
+[tag]
+  gpgsign = true
+
+[gpg]
+  program = gpg

@@ -1,0 +1,16 @@
+#[core]
+#  sshCommand = "ssh -i ~/.ssh/{username}/*"
+
+[user]
+  email = {email}
+  name = {fullname}
+  signingkey = {keyid}
+
+[commit]
+  gpgsign = true
+
+[tag]
+  gpgsign = true
+
+[gpg]
+  program = gpg
